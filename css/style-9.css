@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+
+}
+
+.main-block{
+	position: relative;
+	width: 562px;
+	height: 448px;
+	background-color: #80CDC6;
+}
+.water{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	z-index: 2;
+}
+.world{
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+}
+.ship{
+	position: absolute;
+	width: 116px;
+	bottom: 40px;
+    left: 20px;
+    z-index: 2;
+}
+.cloud{
+	position: absolute;
+	width: 345px;
+	top: -2px;
+    right: 0;
+}

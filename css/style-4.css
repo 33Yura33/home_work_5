@@ -1,0 +1,46 @@
+*{
+	box-sizing: border-box;
+}
+
+.page{
+	padding: 10px;
+	background-color: #fff;
+}
+
+.header{
+	height: 100px;
+	background-color: #000;
+	margin-bottom: 20px;
+}
+
+.wrapper{
+	padding: 7px;
+	background-color: #333;
+	margin-bottom: 20px;	
+}
+
+.wrapper:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.main{
+	width: 59%;
+	float: left;
+	margin-right: 1%;
+	height: 600px;
+	background-color: aqua;
+}
+
+.sidebar{
+	width: 40%;
+	float: left;
+	height: 600px;
+	background-color: green;
+}
+
+.footer{
+	background-color: red;
+	height: 200px;
+}

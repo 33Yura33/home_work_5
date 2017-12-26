@@ -1,0 +1,13 @@
+div {
+  width: 400px;
+  clear: both
+}
+
+
+.fl{
+  float: left;
+}
+
+.fl.right{
+  float: right;
+}
